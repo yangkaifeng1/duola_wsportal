@@ -1,0 +1,70 @@
+{
+  "public": {
+    "restful": {
+      "restUrl": "http://localhost:5000",
+      "appkey": "37e08411ef0e84597e073c53c2c7fe5d",
+      "vcUrl": "/app/user/mobile/verify/create",
+      "vUrl": "/app/user/mobile/verify",
+      "loginUrl": "/app/user/login/mobile"
+    },
+    "dealerRest": {
+      "url": "http://localhost:4000",
+      "dealerUrl": "/app/dealer/referInfo",
+      "rewardsUrl": "/app/dealer/rewards",
+      "referList": "/app/dealer/referList",
+      "cash": "/app/cash",
+      "doCash": "/app/cash/doCash",
+      "channel": "alipay"
+    },
+    "realCheck": {
+      "url": "http://xy.startdt.com/zmxy/generate/pc_auth_url.shtml",
+      "password": "123456",
+      "account": "test",
+      "callback": "http://wsportaltest.duolayimeng.com/#/dealeryes",
+      "callbackfailure": "http://wsportaltest.duolayimeng.com/#/dealership",
+      "login": "http://wsportaltest.duolayimeng.com/#/login",
+      "getScore": "http://xy.startdt.com/zmxy/get/score.shtml"
+    },
+    "oss": {
+      "ddpAddress": "http://svctest.duolayimeng.com"
+    }
+  },
+  "csp": {
+    "allowOriginForAll": [
+      "http://*.duolayimeng.com",
+      "https://*.duolayimeng.com",
+      "http://xy.startdt.com"
+    ],
+    "allowImageOrigin": [],
+    "allowInlineScripts": [],
+    "allowInlineStyles": [],
+    "allowEval": [],
+    "allowSameOriginForAll": [],
+    "allowDataUrlForAll": [],
+    "allowConnectOrigin": [],
+    "allowFrameOrigin": [],
+    "development": {
+      "allowOriginForAll": [
+        "*"
+      ]
+    }
+  },
+  "cors": {
+    "origin": [
+      {
+        "regex": "^https?:\\/\\/(\\w+\\.){0,2}duolayimeng\\.com(\\:\\d+)?$$"
+      },
+      "http://xy.startdt.com"
+    ],
+    "development": {
+      "origin": [
+        {
+          "regex": ".+"
+        },
+        {
+          "regex": "^https?:\\/\\/(127\\.0\\.0\\.1|192\\.168\\.\\d+\\.\\d+|localhost)(\\:\\d+)?$$"
+        }
+      ]
+    }
+  }
+}

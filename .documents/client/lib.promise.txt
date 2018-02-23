@@ -1,0 +1,12 @@
+//http接口
+HTTPpromise(type, url, data, query = {debug； 1})
+将异步求情改为primise
+
+type: "POST", "GET"
+url: "http://www.test.com/info"
+data: {
+  headers: {},
+  data: {}
+}
+
+

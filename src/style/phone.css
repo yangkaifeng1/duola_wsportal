@@ -1,0 +1,412 @@
+html {font-size: 125%;}
+#tas{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url('../../public/back_login.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: top;
+	-webkit-background-size: 100% auto;
+}
+#tas .ant-tabs{
+	margin-top: 5rem;
+}
+#tas .ant-tabs-bar{
+	border: 0;
+}
+#tas .ant-tabs-nav{
+	width: 100%;
+}
+#tas .ant-tabs-tab{
+	width: 50%;
+	margin-right: 0;
+	text-align: center;
+	font-size: 1rem;
+}
+#tas .ant-tabs-ink-bar{
+	background-color: #fff;
+}
+.ant-tabs-nav .ant-tabs-tab{
+	color: #6da999;
+}
+#tas .ant-tabs-tab-active.ant-tabs-tab{
+	color: white;
+}
+.login_input {
+	height: 3rem;
+	width: 100%;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    box-shadow: 0;
+    position: relative;
+    background: none;  
+    outline: none;  
+    border: 1px solid white;
+	color: white;
+	padding-left: 1.5rem;
+}
+.login_input.sub_btn{
+	padding-left: 0;
+} 
+.login_input.has_icon{
+	padding-left: 2.2rem;
+	line-height: 2.8rem;	
+}
+.login_input::-moz-placeholder { color: rgba(211, 211, 211, 0.73);}
+.login_input::-webkit-input-placeholder { color: rgba(211, 211, 211, 0.73);}
+.login_input:-ms-input-placeholder { color: rgba(211, 211, 211, 0.73);}
+
+.login_input.get_code{
+	padding-right: 6rem;
+	// width: 60%;
+}
+
+.get_code_btn{
+	display: inline-block;
+	height: 3rem;
+	border-radius: 0.2rem;
+	position: absolute;
+	right: 0;
+	width: 5.5rem;
+	font-size: 0.8rem;
+	background: none;  
+    outline: none;
+    border: none;  
+    border-left: 1px solid white;
+    color: white;
+}
+
+.phone_list .ant-table-thead > tr > th {
+	width: 20%;
+	background: #6da999;
+	color: white;
+	text-align: center;
+}
+.phone_list .ant-pagination {
+	width: 100%;
+	text-align: center;
+}
+.phone_list .ant-pagination .ant-pagination-item-active {
+	background: #6da999;
+}
+.back_name {
+	background: #7fbcac;
+	height: 3.5rem;
+	text-align: center;
+	font-size: 1.1rem;
+	border: 0.5px solid white;
+}
+
+.back_name.headers{
+	height: 7rem;
+	color: white;
+}
+.back_name.left, .back_name.right{
+	color: white;
+	font-size: 0.9rem;
+}
+
+.back_name.detail{
+	background: #ffffff;
+	height: 2.5rem;
+	text-align: left;
+	border-bottom: 1px solid lightgray; 
+	line-height: 2.5rem;
+    padding-left: 1rem;
+    color: #232323;
+    font-size: 1rem;
+    position: relative;
+}
+
+.rewards_type{
+	height: 2.5rem;
+	font-size: 1rem;
+	background: #F0EFED;
+	line-height: 3rem;
+    padding-left: 1rem;
+}
+
+.money_detail .ant-card-body{
+	padding: 0 1.2rem;
+}
+
+.get_money{
+	font-size: 0.7rem;
+	color: #6da999;
+}
+
+.more_detail{
+	border-bottom: 1px solid #F6F5F4;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-family:PingFangSC-Regular;
+	font-size: 0.7rem;
+	color:#898989;
+	letter-spacing:0.76px;
+}
+
+.cash_num{
+	font-size: 2.5rem;
+}
+.cash_able{
+	font-size: 0.7rem;
+}
+.total_cash{
+	font-size: 1rem;
+}
+.cash_detail{
+	color: #232323;
+	position: absolute;
+	right: 1rem;
+}
+.promo_box1{
+	border-left: 0.3rem solid #ee8267;
+	margin: 0.3rem 0;
+}
+.promo_box2{
+	border-left: 0.3rem solid #3bcdc8;
+	margin: 0.3rem 0;
+}
+.promo_box3{
+	border-left: 0.3rem solid #f8e71c;
+	margin: 0.3rem 0;
+}
+.promo_box4{
+	border-left: 0.3rem solid #ffffff;
+	margin: 0.3rem 0;
+}
+.promo .ant-card-body{
+	overflow: hidden;
+	padding: 0.5rem 0;
+}
+.second_box .promo_box .ant-card-body{
+	overflow: hidden;
+	padding: 0.3rem 0;
+	background: rgb(240, 240, 240);
+} 
+.see_second{
+	width: 2.4rem;
+	text-align: center;
+	height: 1rem;
+	border: 1px solid #7fbcac;
+	border-radius: 0.3rem;
+	top: 0.7rem;
+    position: absolute;
+    right: 0.2rem;
+    color: #7fbcac;
+}
+.light_border{
+	border-right: 1px solid lightgray;
+	padding-left: 0.3rem;
+}
+.nolight_border{
+	padding-left: 0.5rem;
+}
+.top_distance{
+	margin-top: 0.3rem;
+}
+
+.info_top{
+	height: 7rem;
+	background:  #7fbcac;
+	color: white;
+	text-align: center;
+	border-right: 0.5px solid white;
+	font-family: PingFangSC-Medium;
+	font-size: 1.8rem;
+	letter-spacing: 1.98px;
+	margin-bottom: 2rem;
+}
+.info_top_num{
+	margin-top: 1rem; 	
+}
+.info_top_words{
+	font-size: 0.7rem;
+}
+.info_bigbox{
+	border-bottom: 1px solid #dfdfdf;
+}
+.info_box{
+	height: 1rem;
+	border-left: 0.2rem solid #7fbcac;
+	padding: 0.3rem 0;
+    margin: 1rem 0;
+    line-height: 0.3rem;
+}
+.info_name{
+	font-family: PingFangSC-Regular;
+	font-size: 0.9rem;
+	color: #333333;
+	letter-spacing: 0.99px;
+	text-align: left;
+	margin-left: 0.8rem;
+	width: 5.5rem;
+	display: inline-block;
+}
+.info_content{
+	font-family: PingFangSC-Regular;
+	font-size: 0.9rem;
+	color: #878787;
+	letter-spacing: 0.99px;
+	text-align: left;
+}
+.change_info{
+	color:  #7fbcac;
+	border-color: #7fbcac;
+	font-size: 0.8rem;
+	width: 6rem;
+	height: 2rem;
+}
+.change_box{
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.icon_pos{
+	font-size: 1.2rem;
+    color: rgba(211, 211, 211, 0.73);
+    position: absolute;
+    line-height: 3rem;
+    left: 0.5rem;
+}
+.icon_pos.right{
+	right: -11rem;
+	top: 0;
+}
+.register_box{
+	margin-top: 30%;
+}
+.icon_box{
+	position: relative;
+	margin: 1rem 0;
+}
+.icon_right{
+	position: absolute;
+    right: 0.5rem;
+    font-size: 1.2rem;
+    color: lightgray;
+    top: 1rem;
+}
+#tas .ant-btn:hover{
+	background: none;
+    color: white;
+    border-color: white;
+}
+#tas .ant-btn:focus{
+	background: none;
+    color: white;
+    border-color: white;
+}
+#tas .phone_msg{
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+.success_box{
+	margin-top: 30%;
+}
+.get_more{
+	text-align: center;
+	font-size: 0.7rem;
+	height: 2rem;
+	line-height: 2rem;
+	font-family:PingFangSC-Regular;
+	color:#8fccbc;
+	background: rgb(243, 241, 241);
+}
+.phone_rule_box{
+	padding: 0.5rem;
+}
+.phone_rule_box .rule_title{
+	font-family: PingFangSC-Medium;
+	font-size: 0.9rem;
+	color: #2c2c2c;
+	text-align: left;
+	font-weight: bolder;
+	margin-top: 1rem;
+}
+.phone_rule_box .rule_title.first{
+	margin-top: 0.5rem;
+}
+.phone_rule_box .user_box{
+	font-size: 0.7rem;
+	margin: 0.2rem 0;
+	margin-left: 1.2rem;
+}
+.phone_rule_box .user_box.weight{
+	font-weight: bolder;
+}
+.phone_rule_box .user_title{
+	font-weight: bolder;
+
+}
+.phone_rule_box p{
+	font-size: 0.7rem;
+}
+.phone_rule_box .title_icon{
+	display: inline-block;
+	width: 0.7rem;
+	height: 0.2rem;
+	background: #7fbcac;
+	border-radius: 0.3rem;
+	margin-right: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+.company_left{
+	color: #212121;
+	font-size: 0.6rem;
+	font-weight: bolder;
+	margin-top: 0.1rem;
+}
+.company_box .ant-card-body{
+	overflow: hidden;
+	padding: 1rem 0 1rem 0.3rem;
+}
+.see_son{
+	width: 3rem;
+	text-align: center;
+	height: 1rem;
+	border: 1px solid #7fbcac;
+	border-radius: 0.3rem;
+    position: absolute;
+    right: 0.2rem;
+    color: #7fbcac;
+    bottom: 0;
+}
+.soncompany_box .ant-card-body{
+	overflow: hidden;
+	padding: 1rem 0 1rem 0.3rem;
+	background: rgb(249, 249, 249);
+}
+.no_data{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	background: rgb(243, 241, 241);
+	margin-top: -0.3rem;
+}
+.ant-spin-nested-loading > div > .ant-spin.data_loading{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0
+}
+.promo_style .ant-tabs-nav.ant-tabs-nav-animated{
+	width: 100%;
+}
+.promo_style .ant-tabs-tab{
+	width: 20%;
+	margin-right: 0;
+	padding: 0.4rem 0;
+	text-align: center;
+}
+.promo_style .ant-tabs-tab.ant-tabs-tab-active{
+	color: #212121;
+}
+.promo_style .ant-tabs-ink-bar.ant-tabs-ink-bar-animated{
+	background: #212121;
+}

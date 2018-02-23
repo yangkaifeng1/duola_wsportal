@@ -1,0 +1,19 @@
+.main-container{overflow:hidden}.main-container .down-box{margin-top:10px}.main-container .header-row .ant-card{height:220px;line-height:30px}
+.search-header{margin: 5px 0} 
+.search-header .ant-card{height:220px;line-height:30px}
+.login-box{padding-top: 20%}
+.export-list{float: right}
+.change-btn{margin-left: 5px}
+.cash-box{font-size: 14px;margin: 10px 0}
+.cashes{margin-left: 20px}
+.cashes:nth-child(1){margin-left: 0}
+.cash-num{color: red}
+.dealeryes{width: 100%;padding-top: 20%;text-align: center;font-size: 10px;}
+.success-msg{font-size: 3em;width: 52%;display: inline-block;padding: 0}
+.back-login{width: 14em;display: inline-block;height: 3em;line-height: 2em;margin-top: 2em}
+.ret-size{font-size: 1.5em;}
+.card-loading{margin-right: 50%}
+.loginStyle{float: right}
+.usersCon{font-size: 14px;font-weight: 900}
+.infoRight{float: right}
+.tps{width: 50%;background: black}

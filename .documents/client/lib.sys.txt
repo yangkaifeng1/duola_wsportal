@@ -1,0 +1,2 @@
+//获取对象的属性
+getDataByPath(obj, string)
